@@ -11,7 +11,8 @@ function UserList() {
   return (
     <div>
       
-      {listOfUser.map(e=><><h2>{e.name}</h2><h3>{e.email}</h3></>)}
+      {listOfUser.map(e=><><h2>{e.name}</h2>
+      <p class="outset">{e.email}</p></>)}
     </div>
   )
 }
